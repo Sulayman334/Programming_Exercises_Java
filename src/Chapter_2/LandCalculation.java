@@ -1,3 +1,5 @@
+package Chapter_2;
+
 public class LandCalculation {
     public static void main(String[] args) {
         double oneArcOfLand = 43560;

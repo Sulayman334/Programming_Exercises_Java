@@ -1,3 +1,5 @@
+package Chapter_2;
+
 import java.util.Scanner;
 public class MilesPerGallon {
     public static void main(String[] args) {
