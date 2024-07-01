@@ -14,6 +14,11 @@ public class SoccerPoints {
 
         while (points != -1){
              totalPoints += points;
+
+            System.out.println("Enter game points or -1 to end");
+            points = keyboard.nextInt();
         }
+
+        System.out.println("The total points is " + totalPoints);
     }
 }
