@@ -10,11 +10,13 @@ public class RetailPriceCalculator {
         double wholesalePrice = keyboard.nextInt();
 
         System.out.println("Enter the markup percentage");
-        double markupPercentage = keyboard.nextInt();
+        double markupPercentage = keyboard.nextDouble() / 100;
 
+        double retailPrice = retailPriceCalculator(wholesalePrice,markupPercentage);
+        System.out.println("Retail Price: "+retailPrice);
 
     }
-    public static double retailPriceCalculator(double wholesalePrice, double markupPercentage, double retailPrice){
-
+    public static double retailPriceCalculator(double wholesalePrice, double markupPercentage){
+        return wholesalePrice + (wholesalePrice * markupPercentage);
     }
 }
