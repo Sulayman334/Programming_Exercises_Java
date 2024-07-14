@@ -18,5 +18,7 @@ public class RetailPriceCalculator {
     }
     public static double retailPriceCalculator(double wholesalePrice, double markupPercentage){
         return wholesalePrice + (wholesalePrice * markupPercentage);
+
+        // retail = wholesalePrice +(wholesales * markupPercentage)
     }
 }
