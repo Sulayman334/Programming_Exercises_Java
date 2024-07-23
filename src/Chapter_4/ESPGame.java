@@ -10,7 +10,12 @@ public class ESPGame {
         String color;
         Random rand = new Random();
         Scanner keyboard = new Scanner(System.in);
+
+
+        System.out.println("Select a secret number");
         int secretNumber = rand.nextInt(5);
+
+        keyboard.nextLine();
 
         if (secretNumber == 0) {
             color = "red";
@@ -23,14 +28,15 @@ public class ESPGame {
         } else {
             color = "orange";
         }
-        System.out.println(color);
-        System.out.println("--------------------------------");
+        String guessedColor;
 
-        for (int i = 0; i <10;i++) {
-            System.out.println("Enter the color that the computer has selected");
-            color = keyboard.nextLine();
-            System.out.println(color);
+        for (int i = 1; i <=10;i++) {
+            System.out.println("Enter the color the computer has selected");
+            guessedColor = keyboard.nextLine();
 
         }
+
+
+
     }
 }
