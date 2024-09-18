@@ -3,14 +3,18 @@ import java.util.ArrayList;
 public class ArrayListDemo {
     public static void main(String[] args) {
 
-        ArrayList<String> list = new ArrayList<String>();
-        list.add("Malick");
-        list.add("Solo");
-        list.add("Ray");
-        list.remove("Solo");
 
-        for (String s : list) {
-            System.out.println(s);
+        ArrayList<String> food = new ArrayList<String>();
+        food.add("Pizza");
+        food.add("Sharma");
+        food.add("Chicken");
+
+        food.set(0,"Cake");
+        food.remove(2);
+        food.clear();
+
+        for (int i = 0; i < food.size(); i++) {
+            System.out.println("Item at index " + i + ": " + food.get(i));
         }
     }
 }
