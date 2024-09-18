@@ -1,4 +1,4 @@
-package Chapter_9;
+package Chapter_9_WrapperClass;
 
 import java.util.Scanner;
 

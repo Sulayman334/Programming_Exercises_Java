@@ -1,4 +1,4 @@
-package Chapter_9;
+package Chapter_9_WrapperClass;
 import javax.swing.JOptionPane;
 public class CharacterTest {
     public static void main(String[] args) {
