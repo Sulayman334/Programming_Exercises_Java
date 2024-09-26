@@ -34,13 +34,10 @@ public class Library {
     public void findBooks(String author){
         for(int i = 0;i < books.length; i++){
             boolean found = false;
-            if (books[i]!= null && books[i].getAuthor().equals(author)){
-                System.out.println(books[i]);
-                found = true;
+            if (books[i].getAuthor().equalsIgnoreCase(author)){
+                System.out.println("Book Title: "+books[i]);
             }
-            if (!found){
-                System.out.println("No books by "+author+" found");
-            }
+
         }
 
 

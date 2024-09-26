@@ -18,6 +18,7 @@ public class LibraryTester {
         library.addBook(book5);
 
         library.displayBooks();
+        library.findBooks("Sulayman Colley");
 
 
     }
