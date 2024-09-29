@@ -15,6 +15,7 @@ public class Library {
         Book book6 = new Book("Pride and Prejudice", "Jane Austen", Genre.HISTORY, 1813);
         Book book7 = new Book("The Help", "J.D. Salinger", Genre.NON_FICTION, 1953);
 
+
         //adding 3 books to the library
         library.addBook(book1);
         library.addBook(book2);
@@ -44,7 +45,7 @@ public class Library {
 
     }
 
-    ArrayList<Book> books = new ArrayList<Book>();
+    ArrayList<Book> books = new ArrayList<>();
 
     public void addBook(Book book){
         books.add(book);
@@ -53,13 +54,13 @@ public class Library {
     public void removeBook(Book book){
         books.remove(book);
     }
-
+    // display all books method
     public void displayAllBooks(){
         for(Book book: books){
             System.out.println(book.getTitle() + " by " + book.getAuthor());
         }
     }
-
+    //display books by genre method
     public void displayBooksByGenre(Genre genre){
         for(Book book: books){
             if(book.getGenre() == genre){
@@ -67,7 +68,7 @@ public class Library {
             }
         }
     }
-
+    //sort by year method
     public void sortBooksByYear(){
         books.sort(Comparator.comparingInt(Book::getPublicationYear));
         System.out.println("\nBooks sorted by publication year: ");
@@ -75,7 +76,7 @@ public class Library {
             System.out.println(book.getTitle() + " by " + book.getAuthor());
         }
     }
-
+    //search for books method
     public void searchBook(String title){
         for(Book book: books){
             if(book.getTitle().equalsIgnoreCase(title)){
