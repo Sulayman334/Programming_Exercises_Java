@@ -1,4 +1,4 @@
-package Chapter_10_Inheritance;
+package Chapter_10_Inheritance.Inheritance;
 import javax.swing.JOptionPane;
 public class GradeDemo {
     public static void main(String[] args) {

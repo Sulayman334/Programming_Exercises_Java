@@ -9,6 +9,8 @@ public class Main {
 
         Vehicle [] racers = {bicycle, boat,car};
 
-        boat.go();
+       for (Vehicle x : racers) {
+           x.go();
+       }
     }
 }

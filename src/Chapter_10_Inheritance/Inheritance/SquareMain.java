@@ -1,4 +1,4 @@
-package Chapter_10_Inheritance;
+package Chapter_10_Inheritance.Inheritance;
 
 public class SquareMain {
     public static void main(String[] args) {
