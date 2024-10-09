@@ -24,7 +24,7 @@ public class SchoolManagementSystem {
         // Creating and adding various Person objects to the list
         Person person1 = new UndergraduateStudent("Sulayman Colley", 22, "00001", "Information Systems", 2022);
         Person person2 = new UndergraduateStudent("Abubacarr Jobe", 22, "00002", "Development Studies", 2023);
-        Person person3 = new Teacher("Dr. Amelia Earhart", 50, "00003", 10000, "Further Maths");
+        Person person3 = new Teacher("Dr. Musa Colley", 50, "00003", 10000, "Further Maths");
         Person person4 = new Teacher("Mr. George Washington", 45, "00004", 9000, "Civic Engineering");
         Person person5 = new AdministrativeStaff("Mr Assan Jahateh", 50, "00005", 10000, "Admissions Officer");
         Person person6 = new AdministrativeStaff("Remi Badjie", 48, "00006", 20000, "Registrar");

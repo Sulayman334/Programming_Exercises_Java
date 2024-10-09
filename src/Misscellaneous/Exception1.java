@@ -3,8 +3,8 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 public class Exception1 {
     public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
         try {
-            Scanner keyboard = new Scanner(System.in);
             System.out.println("Enter a whole number to divide ");
             int x = keyboard.nextInt();
 
@@ -20,7 +20,12 @@ public class Exception1 {
         }
         catch (InputMismatchException e){
             System.out.println("You cannot divide by a string dummy!");
-
+        }
+        catch (Exception e) {
+            System.out.println("Something went wrong");
+        }
+        finally {
+            keyboard.close();
         }
     }
 }
