@@ -50,10 +50,5 @@ public class BankAccount {
     }
 
 
-    public void transactionHistory(){
-
-
-    }
-
 
 }
