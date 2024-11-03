@@ -6,12 +6,15 @@ public class StringManipulator {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter your favourite city");
-        String favouriteCity = sc.nextLine();
+        System.out.println("Enter a string");
+        String string = sc.nextLine();
 
-        System.out.println(favouriteCity.length());
-        System.out.println(favouriteCity.toUpperCase());
-        System.out.println(favouriteCity.toLowerCase());
-        System.out.println(favouriteCity.charAt(0));
+        char lastCharacter = string.charAt(string.length() - 1);
+
+
+        System.out.println(string.toUpperCase());
+        System.out.println(string.toLowerCase());
+        System.out.println(string.charAt(0));
+        System.out.println(lastCharacter);
     }
 }
