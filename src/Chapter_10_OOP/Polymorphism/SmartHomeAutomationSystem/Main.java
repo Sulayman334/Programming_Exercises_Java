@@ -1,4 +1,4 @@
-package Chapter_10_OOP.SmartHomeAutomationSystem;
+package Chapter_10_OOP.Polymorphism.SmartHomeAutomationSystem;
 
 public class Main {
     public static void main(String[] args) {

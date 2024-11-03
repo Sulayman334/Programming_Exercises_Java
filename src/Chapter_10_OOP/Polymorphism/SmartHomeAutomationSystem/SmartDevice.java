@@ -1,4 +1,4 @@
-package Chapter_10_OOP.SmartHomeAutomationSystem;
+package Chapter_10_OOP.Polymorphism.SmartHomeAutomationSystem;
 
 /**
  * The SmartDevice class serves as an abstract base class for all smart devices

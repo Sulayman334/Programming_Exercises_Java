@@ -1,4 +1,4 @@
-package Chapter_10_OOP.SmartHomeAutomationSystem;
+package Chapter_10_OOP.Polymorphism.SmartHomeAutomationSystem;
 
 /**
  * The Thermostat class represents a smart thermostat device that can be adjusted to

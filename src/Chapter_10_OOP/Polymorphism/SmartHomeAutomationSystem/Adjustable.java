@@ -1,4 +1,4 @@
-package Chapter_10_OOP.SmartHomeAutomationSystem;
+package Chapter_10_OOP.Polymorphism.SmartHomeAutomationSystem;
 
 /**
  * The Adjustable interface defines the contract for objects that have adjustable settings.

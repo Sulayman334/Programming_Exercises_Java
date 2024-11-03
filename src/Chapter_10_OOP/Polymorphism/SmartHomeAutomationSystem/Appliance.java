@@ -1,4 +1,4 @@
-package Chapter_10_OOP.SmartHomeAutomationSystem;
+package Chapter_10_OOP.Polymorphism.SmartHomeAutomationSystem;
 
 /**
  * The Appliance class represents a specific type of SmartDevice that performs

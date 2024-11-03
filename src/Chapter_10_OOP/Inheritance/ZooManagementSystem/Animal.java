@@ -1,4 +1,4 @@
-package Chapter_10_OOP.ZooManagementSystem;
+package Chapter_10_OOP.Inheritance.ZooManagementSystem;
 
 public abstract class Animal implements Movable {
 

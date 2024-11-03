@@ -1,4 +1,4 @@
-package Chapter_10_OOP.ZooManagementSystem;
+package Chapter_10_OOP.Inheritance.ZooManagementSystem;
 
 public class Eagle extends Animal implements Movable{
     public Eagle(String name,int age) {
