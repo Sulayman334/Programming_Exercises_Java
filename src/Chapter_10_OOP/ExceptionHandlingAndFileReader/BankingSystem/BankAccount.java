@@ -1,12 +1,9 @@
 package Chapter_10_OOP.ExceptionHandlingAndFileReader.BankingSystem;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class BankAccount {
 
-    private String accountNumber;
-    private  String accountHolderName;
+    private final String accountNumber;
+    private final String accountHolderName;
     private double balance;
 
     public BankAccount(String accountNumber, String accountHolderName, double initialBalance)

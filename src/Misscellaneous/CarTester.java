@@ -15,6 +15,6 @@ public class CarTester {
         int year = keyboard.nextInt();
 
         Car myCar = new Car(brand,model,year);
-        System.out.println(myCar.getBrand());
+        System.out.println(myCar.getBrand()+" "+myCar.getModel()+" "+myCar.getYear());
     }
 }
