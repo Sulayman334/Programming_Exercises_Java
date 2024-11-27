@@ -6,6 +6,7 @@ public class LandCalculation {
         double sizeOfLand = 389767;
         double numberOfArcsInTract = sizeOfLand / oneArcOfLand;
         System.out.println(numberOfArcsInTract);
+        
 
     }
 }
