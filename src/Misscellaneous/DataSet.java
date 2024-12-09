@@ -55,6 +55,8 @@ public class DataSet {
         System.out.println("Count: "+dataset.count);
         System.out.println("Average: "+ dataset.getAverage());
         System.out.println("Standard Deviation: "+ dataset.getStandardDeviation());
+        System.out.println("Variance: "+ "done");
+
 
 
     }
